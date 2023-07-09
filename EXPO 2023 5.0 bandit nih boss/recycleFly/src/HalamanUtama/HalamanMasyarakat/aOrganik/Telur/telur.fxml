@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXTextArea?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.effect.Light.Distant?>
+<?import javafx.scene.effect.Lighting?>
+<?import javafx.scene.effect.Shadow?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.shape.Line?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="900.0" prefWidth="1600.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="HalamanUtama.HalamanMasyarakat.aOrganik.Telur.pageTelur">
+   <children>
+      <ImageView fitHeight="354.0" fitWidth="353.0" layoutX="1189.0" layoutY="568.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../../Image/eggs.png" />
+         </image>
+         <effect>
+            <Lighting specularExponent="4.5">
+               <bumpInput>
+                  <Shadow />
+               </bumpInput>
+               <light>
+                  <Light.Distant />
+               </light>
+            </Lighting>
+         </effect>
+      </ImageView>
+      <AnchorPane layoutX="252.0" layoutY="195.0" prefHeight="78.0" prefWidth="200.0" style="-fx-background-color: WHITE; -fx-background-radius: 20;" />
+      <AnchorPane layoutX="105.0" layoutY="263.0" prefHeight="315.0" prefWidth="376.0" style="-fx-background-color: D9D9D9; -fx-background-radius: 20;">
+         <children>
+            <ImageView fitHeight="285.0" fitWidth="323.0" layoutX="44.0" layoutY="15.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../../../Image/TELUR.jpeg" />
+               </image>
+               <effect>
+                  <Lighting specularExponent="4.5">
+                     <bumpInput>
+                        <Shadow />
+                     </bumpInput>
+                     <light>
+                        <Light.Distant />
+                     </light>
+                  </Lighting>
+               </effect>
+            </ImageView>
+         </children>
+      </AnchorPane>
+      <Button layoutX="1189.0" layoutY="614.0" mnemonicParsing="false" onAction="#keJual" prefHeight="61.0" prefWidth="137.0" text="JUAL">
+         <font>
+            <Font name="System Bold" size="14.0" />
+         </font></Button>
+      <Button fx:id="buttonKembali" layoutX="84.0" layoutY="789.0" mnemonicParsing="false" onAction="#untukKembali" prefHeight="52.0" prefWidth="117.0" text="Kembali">
+         <font>
+            <Font name="System Bold" size="14.0" />
+         </font></Button>
+      <JFXTextArea focusColor="#28292b" layoutX="524.0" layoutY="313.0" prefHeight="255.0" prefWidth="866.0" text="Sampah telur merujuk pada limbah yang dihasilkan dari kerusakan atau ketidaklayakan telur, termasuk telur yang pecah, telur yang busuk, atau telur yang sudah kadaluarsa. Sampah telur juga dapat mencakup kulit telur yang sudah digunakan dan tidak digunakan lagi.&#10;&#10;Berikut adalah deskripsi tentang sampah telur:&#10;&#10;1.Komponen Sampah: Sampah telur terdiri dari berbagai komponen seperti telur yang pecah, telur yang busuk, telur yang sudah kadaluarsa, dan kulit telur yang tidak digunakan lagi. Telur yang pecah atau busuk seringkali menghasilkan bau yang tidak sedap dan harus dibuang dengan hati-hati.&#10;&#10;2.Pembuangan yang Aman: Sampah telur harus dibuang dengan benar untuk mencegah penyebaran bau yang tidak sedap atau kontaminasi. Membungkusnya dalam kantong plastik atau tempat sampah tertutup dapat membantu mencegah bau dan menjaga kebersihan lingkungan sekitar.&#10;&#10;3.Daur Ulang atau Penggunaan Kreatif: Meskipun telur yang pecah atau busuk tidak dapat dimakan, beberapa komponennya masih bisa dimanfaatkan. Misalnya, kulit telur dapat dihancurkan menjadi serbuk dan digunakan sebagai suplemen kalsium untuk tanaman. Selain itu, kulit telur juga dapat digunakan dalam proyek kerajinan atau sebagai penghancur alami untuk menggiling biji kopi." unFocusColor="TRANSPARENT">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </JFXTextArea>
+      <Line endX="1408.0001220703125" layoutX="202.0" layoutY="139.0" startX="-202.00003051757812" startY="1.52587890625E-5" />
+      <ImageView fitHeight="84.0" fitWidth="81.0" layoutX="123.0" layoutY="30.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../../Image/recycle.png" />
+         </image>
+         <effect>
+            <Lighting specularExponent="4.5">
+               <bumpInput>
+                  <Shadow />
+               </bumpInput>
+               <light>
+                  <Light.Distant />
+               </light>
+            </Lighting>
+         </effect>
+      </ImageView>
+      <Text fill="#727272" fontSmoothingType="LCD" layoutX="216.0" layoutY="72.0" strokeLineCap="BUTT" strokeType="OUTSIDE" strokeWidth="0.0" text="RecycleFly." wrappingWidth="183.849609375">
+         <font>
+            <Font name="System Bold Italic" size="36.0" />
+         </font>
+      </Text>
+      <Text fill="#727272" layoutX="218.0" layoutY="95.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Go Green, Go Smart!">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Text>
+      <Text layoutX="532.0" layoutY="291.0" strokeType="OUTSIDE" strokeWidth="0.0" text="DESKRIPSI">
+         <font>
+            <Font name="System Bold Italic" size="14.0" />
+         </font>
+      </Text>
+      <AnchorPane layoutX="196.0" layoutY="217.0" prefHeight="78.0" prefWidth="200.0" style="-fx-background-color: D9D9D9; -fx-background-radius: 20;">
+         <children>
+            <Text layoutX="46.0" layoutY="50.0" strokeType="OUTSIDE" strokeWidth="0.0" text="TELUR" wrappingWidth="117.60000000000002">
+               <font>
+                  <Font name="Arial Black" size="28.0" />
+               </font>
+            </Text>
+         </children>
+      </AnchorPane>
+      <Text layoutX="107.0" layoutY="614.0" strokeType="OUTSIDE" strokeWidth="0.0" text="ALAMAT PENGEPUL: ">
+         <font>
+            <Font name="System Bold Italic" size="14.0" />
+         </font>
+      </Text>
+      <JFXTextArea layoutX="105.0" layoutY="621.0" prefHeight="100.0" prefWidth="407.0" text="Jl. Kaliurang No.Km. 14,5, Krawitan, Umbulmartani, Kec. Ngemplak, Kabupaten Sleman, Daerah Istimewa Yogyakarta 55584&#10;" unFocusColor="#4d4d4d00">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </JFXTextArea>
+   </children>
+</AnchorPane>

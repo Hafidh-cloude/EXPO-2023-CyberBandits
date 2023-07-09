@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXTextArea?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.effect.Light.Distant?>
+<?import javafx.scene.effect.Lighting?>
+<?import javafx.scene.effect.Shadow?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.shape.Line?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="900.0" prefWidth="1600.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="HalamanUtama.HalamanMasyarakat.aOrganik.Kertas.pageKertas">
+   <children>
+      <ImageView fitHeight="336.0" fitWidth="347.0" layoutX="1175.0" layoutY="561.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../../Image/documents.png" />
+         </image>
+         <effect>
+            <Lighting specularExponent="4.5">
+               <bumpInput>
+                  <Shadow />
+               </bumpInput>
+               <light>
+                  <Light.Distant />
+               </light>
+            </Lighting>
+         </effect>
+      </ImageView>
+      <AnchorPane layoutX="260.0" layoutY="181.0" prefHeight="78.0" prefWidth="200.0" style="-fx-background-color: WHITE; -fx-background-radius: 20;" />
+      <AnchorPane layoutX="112.0" layoutY="240.0" prefHeight="322.0" prefWidth="399.0" style="-fx-background-color: D9D9D9; -fx-background-radius: 20;">
+         <children>
+            <ImageView fitHeight="284.0" fitWidth="359.0" layoutX="20.0" layoutY="27.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../../../Image/kertas%202.0.jpeg" />
+               </image>
+               <effect>
+                  <Lighting specularExponent="4.13">
+                     <bumpInput>
+                        <Shadow />
+                     </bumpInput>
+                     <light>
+                        <Light.Distant />
+                     </light>
+                  </Lighting>
+               </effect>
+            </ImageView>
+            <AnchorPane layoutX="100.0" layoutY="-39.0" prefHeight="78.0" prefWidth="200.0" style="-fx-background-color: D9D9D9; -fx-background-radius: 20;">
+               <children>
+                  <Text layoutX="27.0" layoutY="50.0" strokeType="OUTSIDE" strokeWidth="0.0" text="KERTAS" wrappingWidth="172.13671875">
+                     <font>
+                        <Font name="Arial Black" size="28.0" />
+                     </font>
+                  </Text>
+               </children>
+            </AnchorPane>
+         </children>
+      </AnchorPane>
+      <Button layoutX="1189.0" layoutY="614.0" mnemonicParsing="false" onAction="#keJual" prefHeight="61.0" prefWidth="137.0" text="JUAL">
+         <font>
+            <Font name="System Bold" size="14.0" />
+         </font></Button>
+      <Button fx:id="buttonKembali" layoutX="84.0" layoutY="789.0" mnemonicParsing="false" onAction="#untukKembali" prefHeight="52.0" prefWidth="117.0" text="Kembali">
+         <font>
+            <Font name="System Bold" size="14.0" />
+         </font></Button>
+      <JFXTextArea focusColor="#28292b" layoutX="532.0" layoutY="285.0" prefHeight="255.0" prefWidth="866.0" text="Sampah kertas merujuk pada limbah yang terbuat dari bahan kertas yang tidak terpakai, rusak, atau sudah tidak diperlukan lagi. Ini meliputi berbagai jenis kertas seperti kertas koran, kertas kantor, kertas bekas, majalah, brosur, karton, dan kemasan kertas lainnya.&#10;&#10;Berikut adalah deskripsi tentang sampah kertas:&#10;&#10;1.Komponen Kertas: Sampah kertas terdiri dari serpihan, potongan, atau lembaran kertas yang tidak lagi digunakan atau rusak. Ini mencakup berbagai ukuran dan bentuk, mulai dari kertas tipis hingga karton yang lebih tebal. Sampah kertas juga dapat berupa amplop, catatan, atau dokumen yang sudah tidak diperlukan lagi.&#10;&#10;2.Daur Ulang dan Sifat Ramah Lingkungan: Salah satu aspek penting dari sampah kertas adalah potensi daur ulangnya. Kertas adalah bahan yang dapat didaur ulang dengan baik, dan proses daur ulang kertas dapat mengurangi penebangan pohon dan dampak negatif terhadap lingkungan. Dengan mengumpulkan, mengolah, dan mendaur ulang sampah kertas, kita dapat memperpanjang siklus hidup kertas dan mengurangi penggunaan sumber daya alam yang berharga.&#10;&#10;3.Penggunaan yang Beragam: Sampah kertas dapat digunakan kembali untuk berbagai keperluan. Kertas bekas atau daur ulang dapat digunakan sebagai bahan baku untuk pembuatan kertas baru. Selain itu, kertas bekas juga dapat digunakan sebagai bahan bakar alternatif dalam pembangkit listrik atau pabrik kertas." unFocusColor="TRANSPARENT">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </JFXTextArea>
+      <Line endX="1408.0001220703125" layoutX="206.0" layoutY="118.0" startX="-202.00003051757812" startY="1.52587890625E-5" />
+      <ImageView fitHeight="84.0" fitWidth="81.0" layoutX="123.0" layoutY="30.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../../Image/recycle.png" />
+         </image>
+         <effect>
+            <Lighting specularExponent="4.5">
+               <bumpInput>
+                  <Shadow />
+               </bumpInput>
+               <light>
+                  <Light.Distant />
+               </light>
+            </Lighting>
+         </effect>
+      </ImageView>
+      <Text fill="#727272" fontSmoothingType="LCD" layoutX="216.0" layoutY="72.0" strokeLineCap="BUTT" strokeType="OUTSIDE" strokeWidth="0.0" text="RecycleFly." wrappingWidth="183.849609375">
+         <font>
+            <Font name="System Bold Italic" size="36.0" />
+         </font>
+      </Text>
+      <Text fill="#727272" layoutX="218.0" layoutY="95.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Go Green, Go Smart!">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Text>
+      <Text layoutX="540.0" layoutY="263.0" strokeType="OUTSIDE" strokeWidth="0.0" text="DESKRIPSI">
+         <font>
+            <Font name="System Bold Italic" size="14.0" />
+         </font>
+      </Text>
+      <Text layoutX="113.0" layoutY="588.0" strokeType="OUTSIDE" strokeWidth="0.0" text="ALAMAT PENGEPUL: ">
+         <font>
+            <Font name="System Bold Italic" size="14.0" />
+         </font>
+      </Text>
+      <JFXTextArea layoutX="113.0" layoutY="593.0" prefHeight="100.0" prefWidth="407.0" text="Jl. HOS Cokroaminoto No.10, Pakuncen, Wirobrajan, Kota Yogyakarta, Daerah Istimewa Yogyakarta 55253&#10;" unFocusColor="#4d4d4d00">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </JFXTextArea>
+   </children>
+</AnchorPane>

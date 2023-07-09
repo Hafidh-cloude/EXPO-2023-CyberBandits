@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="900.0" prefWidth="1600.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="HalamanUtama.halamanPengepul.page21">
+   <center>
+      <BorderPane BorderPane.alignment="CENTER">
+         <left>
+            <VBox fx:id="leftPane" prefWidth="300.0" style="-fx-background-color: C3EDC0;" BorderPane.alignment="CENTER">
+               <children>
+                  <Button mnemonicParsing="false" onAction="#keProfil" prefHeight="58.0" prefWidth="293.0" style="-fx-background-color: transparant;" text="Profil" textFill="#2c7e2b">
+                     <VBox.margin>
+                        <Insets left="44.0" top="250.0" />
+                     </VBox.margin>
+                     <font>
+                        <Font name="System Bold" size="20.0" />
+                     </font>
+                     <graphic>
+                        <ImageView fitHeight="28.0" fitWidth="40.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../../Image/Profil.png" />
+                           </image>
+                        </ImageView>
+                     </graphic>
+                  </Button>
+                  <Button fx:id="berandaButton" mnemonicParsing="false" onAction="#handleBerandaButtonClick" prefHeight="58.0" prefWidth="390.0" style="-fx-background-color: transparan;" text="Beranda" textFill="#2c7e2b">
+                     <VBox.margin>
+                        <Insets left="44.0" top="30.0" />
+                     </VBox.margin>
+                     <font>
+                        <Font name="System Bold" size="20.0" />
+                     </font>
+                     <graphic>
+                        <ImageView fitHeight="32.0" fitWidth="34.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../../Image/Beranda.png" />
+                           </image>
+                        </ImageView>
+                     </graphic>
+                  </Button>
+                  <Button fx:id="tentangKamiButton" mnemonicParsing="false" onAction="#handleTentangKamiButtonClick" prefHeight="58.0" prefWidth="408.0" style="-fx-background-color: Transparan;" text="Tentang Kami" textFill="#2c7e2b">
+                     <VBox.margin>
+                        <Insets left="44.0" top="30.0" />
+                     </VBox.margin>
+                     <graphic>
+                        <ImageView fitHeight="36.0" fitWidth="46.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../../Image/Tentang%20kami.png" />
+                           </image>
+                        </ImageView>
+                     </graphic>
+                     <font>
+                        <Font name="System Bold" size="20.0" />
+                     </font>
+                  </Button>
+                  <Button mnemonicParsing="false" onAction="#handleKembali" prefHeight="58.0" prefWidth="149.0" style="-fx-background-color: seagreen;" text="LOGOUT">
+                     <VBox.margin>
+                        <Insets left="65.0" top="300.0" />
+                     </VBox.margin>
+                     <graphic>
+                        <ImageView fitHeight="43.0" fitWidth="38.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../../Image/icons8-logout-24.png" />
+                           </image>
+                        </ImageView>
+                     </graphic>
+                     <font>
+                        <Font name="System Bold" size="18.0" />
+                     </font>
+                     <padding>
+                        <Insets right="30.0" />
+                     </padding>
+                  </Button>
+               </children>
+               <BorderPane.margin>
+                  <Insets />
+               </BorderPane.margin>
+            </VBox>
+         </left>
+         <center>
+            <AnchorPane fx:id="utamaPane" prefHeight="743.0" prefWidth="1300.0" style="-fx-background-color: E9FFC2;" BorderPane.alignment="CENTER">
+               <children>
+                  <AnchorPane layoutX="886.0" layoutY="228.0" prefHeight="50.0" prefWidth="172.0" style="-fx-background-color: white; -fx-background-radius: 20;" />
+                  <AnchorPane layoutX="133.0" layoutY="227.0" prefHeight="50.0" prefWidth="206.0" style="-fx-background-color: white; -fx-background-radius: 20;" />
+                  <AnchorPane layoutX="144.0" layoutY="282.0" prefHeight="324.0" prefWidth="196.0" style="-fx-background-color: white; -fx-background-radius: 10;">
+                     <children>
+                        <ImageView fitHeight="323.0" fitWidth="243.0" layoutX="-1.0" layoutY="4.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../../Image/ORGANIK%20BERANDA.jpg" />
+                           </image>
+                        </ImageView>
+                        <JFXButton layoutX="-2.0" layoutY="3.0" onAction="#keOrganik" prefHeight="324.0" prefWidth="215.0" text="`" />
+                     </children>
+                  </AnchorPane>
+                  <AnchorPane layoutX="515.0" layoutY="275.0" prefHeight="321.0" prefWidth="173.0" style="-fx-background-color: white; -fx-background-radius: 10;">
+                     <children>
+                        <ImageView fitHeight="328.0" fitWidth="215.0" layoutX="-6.0" layoutY="14.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../../Image/ANORGANIK%20BERANDA.jpg" />
+                           </image>
+                        </ImageView>
+                        <JFXButton layoutX="-4.0" layoutY="14.0" onAction="#keAnorganik" prefHeight="314.0" prefWidth="214.0" text="`" />
+                     </children>
+                  </AnchorPane>
+                  <AnchorPane layoutX="896.0" layoutY="281.0" prefHeight="326.0" prefWidth="183.0" style="-fx-background-color: white; -fx-background-radius: 10;">
+                     <children>
+                        <ImageView fitHeight="323.0" fitWidth="227.0" layoutX="-4.0" layoutY="4.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../../Image/Ewaste%20image.jpeg" />
+                           </image>
+                        </ImageView>
+                        <JFXButton layoutX="-2.0" layoutY="3.0" onAction="#keB3" prefHeight="318.0" prefWidth="210.0" text="`" />
+                     </children>
+                  </AnchorPane>
+                  <AnchorPane layoutX="123.0" layoutY="234.0" prefHeight="50.0" prefWidth="125.0" style="-fx-background-color: seagreen; -fx-background-radius: 20;">
+                     <children>
+                        <Text fill="WHITE" layoutX="14.0" layoutY="35.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Sampah Organik" wrappingWidth="186.7955551147461">
+                           <font>
+                              <Font size="24.0" />
+                           </font>
+                        </Text>
+                     </children>
+                  </AnchorPane>
+                  <AnchorPane layoutX="500.0" layoutY="229.0" prefHeight="50.0" prefWidth="244.0" style="-fx-background-color: white; -fx-background-radius: 20;" />
+                  <AnchorPane layoutX="489.0" layoutY="236.0" prefHeight="50.0" prefWidth="239.0" style="-fx-background-color: seagreen; -fx-background-radius: 20;">
+                     <children>
+                        <Text fill="WHITE" layoutX="14.0" layoutY="35.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Sampah Anorganik" wrappingWidth="211.32894134521484">
+                           <font>
+                              <Font size="24.0" />
+                           </font>
+                        </Text>
+                     </children>
+                  </AnchorPane>
+                  <AnchorPane layoutX="875.0" layoutY="235.0" prefHeight="50.0" prefWidth="166.0" style="-fx-background-color: seagreen; -fx-background-radius: 20;">
+                     <children>
+                        <Text fill="WHITE" layoutX="16.0" layoutY="35.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Sampah B3" wrappingWidth="151.32894134521484">
+                           <font>
+                              <Font size="24.0" />
+                           </font>
+                        </Text>
+                     </children>
+                  </AnchorPane>
+                  <Button layoutX="111.0" layoutY="703.0" mnemonicParsing="false" onAction="#kePengiriman" prefHeight="58.0" prefWidth="390.0" style="-fx-background-color: transparan; -fx-border-color: black;" text="Pengiriman">
+                     <font>
+                        <Font name="System Bold" size="20.0" />
+                     </font>
+                     <graphic>
+                        <ImageView fitHeight="34.0" fitWidth="32.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../../Image/Pencatatan.png" />
+                           </image>
+                        </ImageView>
+                     </graphic>
+                  </Button>
+                  <Button fx:id="RiwayatButton1" layoutX="745.0" layoutY="695.0" mnemonicParsing="false" onAction="#handleRiwayatButtonClick" prefHeight="58.0" prefWidth="366.0" style="-fx-background-color: Transparan; -fx-border-color: black;" text="Riwayat Pengiriman">
+                     <font>
+                        <Font name="System Bold" size="20.0" />
+                     </font>
+                     <graphic>
+                        <ImageView fitHeight="45.0" fitWidth="40.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../../Image/Grafik.png" />
+                           </image>
+                        </ImageView>
+                     </graphic>
+                  </Button>
+               </children></AnchorPane>
+         </center>
+      </BorderPane>
+   </center>
+</BorderPane>

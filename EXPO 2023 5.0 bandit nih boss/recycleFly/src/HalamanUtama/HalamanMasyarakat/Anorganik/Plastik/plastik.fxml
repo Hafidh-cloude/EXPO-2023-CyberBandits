@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXTextArea?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.effect.Light.Distant?>
+<?import javafx.scene.effect.Lighting?>
+<?import javafx.scene.effect.Shadow?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.shape.Line?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="900.0" prefWidth="1600.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="HalamanUtama.HalamanMasyarakat.Anorganik.Plastik.pagePlastik">
+   <children>
+      <ImageView fitHeight="355.0" fitWidth="345.0" layoutX="1192.0" layoutY="549.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../../Image/bag.png" />
+         </image>
+         <effect>
+            <Lighting specularExponent="4.13">
+               <bumpInput>
+                  <Shadow />
+               </bumpInput>
+               <light>
+                  <Light.Distant />
+               </light>
+            </Lighting>
+         </effect>
+      </ImageView>
+      <AnchorPane layoutX="256.0" layoutY="150.0" prefHeight="78.0" prefWidth="200.0" style="-fx-background-color: WHITE; -fx-background-radius: 20;" />
+      <AnchorPane layoutX="108.0" layoutY="223.0" prefHeight="322.0" prefWidth="399.0" style="-fx-background-color: d9d9d9; -fx-background-radius: 20;">
+         <children>
+            <ImageView fitHeight="285.0" fitWidth="363.0" layoutX="29.0" layoutY="21.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../../../Image/plastik.jpeg" />
+               </image>
+               <effect>
+                  <Lighting specularExponent="4.5">
+                     <bumpInput>
+                        <Shadow />
+                     </bumpInput>
+                     <light>
+                        <Light.Distant />
+                     </light>
+                  </Lighting>
+               </effect>
+            </ImageView>
+         </children>
+      </AnchorPane>
+      <Button layoutX="1189.0" layoutY="614.0" mnemonicParsing="false" onAction="#untukJual" prefHeight="61.0" prefWidth="137.0" text="JUAL">
+         <font>
+            <Font name="System Bold" size="14.0" />
+         </font></Button>
+      <Button fx:id="buttonKembali" layoutX="84.0" layoutY="789.0" mnemonicParsing="false" onAction="#untukKembali" prefHeight="52.0" prefWidth="117.0" text="Kembali">
+         <font>
+            <Font name="System Bold" size="14.0" />
+         </font></Button>
+      <JFXTextArea focusColor="#28292b" layoutX="528.0" layoutY="268.0" prefHeight="255.0" prefWidth="866.0" text="Sampah plastik adalah jenis sampah padat yang terbuat dari bahan plastik, yang meliputi berbagai produk seperti kemasan makanan, botol, kantong plastik, wadah plastik, dan banyak lagi. Plastik adalah bahan yang sulit terurai secara alami, dan akumulasi sampah plastik telah menjadi masalah lingkungan global. Berikut ini adalah gambaran umum tentang sampah plastik dan cara penanggulangannya:&#10;&#10;1. Reduksi Penggunaan Plastik Sekali Pakai: Salah satu cara paling efektif dalam penanggulangan sampah plastik adalah dengan mengurangi penggunaan plastik sekali pakai. Ini dapat dilakukan dengan mengganti kantong plastik sekali pakai dengan kantong kain atau tas belanja yang dapat digunakan berulang kali, menggunakan botol minum tahan ulang daripada botol air plastik, dan menghindari penggunaan kemasan makanan plastik yang berlebihan.&#10;&#10;2. Daur Ulang: Daur ulang plastik merupakan langkah penting dalam mengurangi sampah plastik. Proses daur ulang melibatkan pengumpulan, pemilahan, pencucian, dan pemrosesan plastik bekas menjadi biji plastik yang dapat digunakan untuk membuat produk baru. Namun, penting untuk memperhatikan bahwa tidak semua jenis plastik dapat didaur ulang dengan mudah. Beberapa jenis plastik, seperti polietilena tinggi (HDPE) dan polietilena rendah (LDPE), lebih mudah didaur ulang dibandingkan dengan plastik lainnya.&#10;&#10;3. Penggunaan Bahan Alternatif: Pengembangan dan penggunaan bahan alternatif yang ramah lingkungan dapat membantu mengurangi ketergantungan pada plastik. Contohnya termasuk penggunaan kemasan berbasis serat alami, seperti kertas atau daun pisang, penggunaan bahan komposit bio-plastik yang terbuat dari sumber-sumber terbarukan, atau pengembangan bahan plastik yang dapat terurai dengan cepat dan aman di alam." unFocusColor="TRANSPARENT">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </JFXTextArea>
+      <Line endX="1408.0001220703125" layoutX="202.0" layoutY="139.0" startX="-202.00003051757812" startY="1.52587890625E-5" />
+      <ImageView fitHeight="84.0" fitWidth="81.0" layoutX="123.0" layoutY="30.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../../Image/recycle.png" />
+         </image>
+         <effect>
+            <Lighting specularExponent="4.5">
+               <bumpInput>
+                  <Shadow />
+               </bumpInput>
+               <light>
+                  <Light.Distant />
+               </light>
+            </Lighting>
+         </effect>
+      </ImageView>
+      <Text fill="#727272" fontSmoothingType="LCD" layoutX="216.0" layoutY="72.0" strokeLineCap="BUTT" strokeType="OUTSIDE" strokeWidth="0.0" text="RecycleFly." wrappingWidth="183.849609375">
+         <font>
+            <Font name="System Bold Italic" size="36.0" />
+         </font>
+      </Text>
+      <Text fill="#727272" layoutX="218.0" layoutY="95.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Go Green, Go Smart!">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Text>
+      <Text layoutX="536.0" layoutY="246.0" strokeType="OUTSIDE" strokeWidth="0.0" text="DESKRIPSI">
+         <font>
+            <Font name="System Bold Italic" size="14.0" />
+         </font>
+      </Text>
+      <AnchorPane layoutX="200.0" layoutY="172.0" prefHeight="78.0" prefWidth="200.0" style="-fx-background-color: D9D9D9; -fx-background-radius: 20;">
+         <children>
+            <Text layoutX="35.0" layoutY="50.0" strokeType="OUTSIDE" strokeWidth="0.0" text="PLASTIK" wrappingWidth="150.20001220703125">
+               <font>
+                  <Font name="Arial Black" size="28.0" />
+               </font>
+            </Text>
+         </children>
+      </AnchorPane>
+      <Text layoutX="111.0" layoutY="569.0" strokeType="OUTSIDE" strokeWidth="0.0" text="ALAMAT PENGEPUL: ">
+         <font>
+            <Font name="System Bold Italic" size="14.0" />
+         </font>
+      </Text>
+      <JFXTextArea layoutX="109.0" layoutY="576.0" prefHeight="100.0" prefWidth="399.0" text="Jl. Cik Di Tiro No.30, Samirono, Terban, Kec. Gondokusuman, Kota Yogyakarta, Daerah Istimewa Yogyakarta 55223&#10;" unFocusColor="#4d4d4d00">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </JFXTextArea>
+   </children>
+</AnchorPane>

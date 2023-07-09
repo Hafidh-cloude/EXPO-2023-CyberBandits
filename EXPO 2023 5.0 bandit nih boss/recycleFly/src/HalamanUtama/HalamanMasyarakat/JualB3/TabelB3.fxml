@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane id="AnchorPane" prefHeight="900.0" prefWidth="1600.0" style="-fx-background-color: d9d9d9;" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="HalamanUtama.HalamanMasyarakat.JualB3.page118">
+    <children>
+      <AnchorPane layoutX="118.0" layoutY="126.0" prefHeight="680.0" prefWidth="1408.0" style="-fx-background-color: gray; -fx-background-radius: 50;" />
+        <Button fx:id="button" layoutX="543.0" layoutY="700.0" onAction="#tombolKebenaran" prefHeight="61.0" prefWidth="225.0" text="Tambahkan data">
+         <font>
+            <Font size="20.0" />
+         </font></Button>
+      <TextField fx:id="cumi1" layoutX="218.0" layoutY="616.0" prefHeight="40.0" prefWidth="209.0" promptText="Nama">
+         <font>
+            <Font size="18.0" />
+         </font></TextField>
+      <TextField fx:id="cumi2" layoutX="451.0" layoutY="616.0" prefHeight="40.0" prefWidth="210.0" promptText="Jenis Sampah">
+         <font>
+            <Font size="17.0" />
+         </font></TextField>
+      <TableView fx:id="Mpl" layoutX="255.0" layoutY="185.0" prefHeight="398.0" prefWidth="1063.0">
+        <columns>
+          <TableColumn fx:id="sgNama" prefWidth="152.79999542236328" text="Nama" />
+          <TableColumn fx:id="sgJenisSampah" prefWidth="198.39999389648438" text="Jenis Sampah" />
+            <TableColumn fx:id="sgtanggalPengiriman" prefWidth="247.19998168945312" text="Tanggal Pengiriman" />
+            <TableColumn fx:id="sgBerat" prefWidth="146.39996337890625" text="Berat" />
+            <TableColumn fx:id="sgtotalHarga" prefWidth="159.20001220703125" text="Total Harga" />
+            <TableColumn fx:id="sgstatus" prefWidth="157.60002441406255" text="Status" />
+        </columns>
+      </TableView>
+      <TextField fx:id="cumi4" layoutX="913.0" layoutY="616.0" prefHeight="40.0" prefWidth="210.0" promptText="Berat">
+         <font>
+            <Font size="18.0" />
+         </font></TextField>
+      <ImageView fitHeight="135.0" fitWidth="102.0" layoutX="14.0" layoutY="14.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../Image/logo%20sampah%20b3.jpg" />
+         </image>
+      </ImageView>
+      <TextField fx:id="cumi3" layoutX="682.0" layoutY="616.0" prefHeight="40.0" prefWidth="210.0" promptText="Tanggal Pengiriman">
+         <font>
+            <Font size="17.0" />
+         </font></TextField>
+      <ImageView fitHeight="82.0" fitWidth="84.0" layoutX="76.0" layoutY="27.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../Image/recycle.png" />
+         </image>
+      </ImageView>
+      <Text fill="#727272" layoutX="170.0" layoutY="70.0" strokeType="OUTSIDE" strokeWidth="0.0" text="RecycleFly.">
+         <font>
+            <Font name="System Bold Italic" size="30.0" />
+         </font>
+      </Text>
+      <Text fill="#727272" layoutX="171.0" layoutY="97.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Go Green, Go Smart!">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Text>
+      <TextField fx:id="cumi5" layoutX="1141.0" layoutY="617.0" prefHeight="40.0" prefWidth="210.0" promptText="Total Harga">
+         <font>
+            <Font size="17.0" />
+         </font></TextField>
+      <Button layoutX="127.0" layoutY="823.0" mnemonicParsing="false" onAction="#untukKembali" prefHeight="47.0" prefWidth="95.0" text="Kembali">
+         <font>
+            <Font name="System Bold" size="17.0" />
+         </font></Button>
+      <Button layoutX="808.0" layoutY="706.0" mnemonicParsing="false" onAction="#hapusData" prefHeight="46.0" prefWidth="102.0" text="Hapus">
+         <font>
+            <Font size="17.0" />
+         </font></Button>
+      <Button layoutX="947.0" layoutY="705.0" mnemonicParsing="false" onAction="#hapusSemuaData" prefHeight="46.0" prefWidth="115.0" text="Hapus semua">
+         <font>
+            <Font size="15.0" />
+         </font></Button>
+    </children>
+</AnchorPane>

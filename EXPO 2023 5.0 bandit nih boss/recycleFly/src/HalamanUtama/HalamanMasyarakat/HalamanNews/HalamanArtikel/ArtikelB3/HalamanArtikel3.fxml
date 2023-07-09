@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import com.jfoenix.controls.JFXTextArea?>
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.ScrollPane?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="900.0" prefWidth="1600.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="HalamanUtama.HalamanMasyarakat.HalamanNews.HalamanArtikel.ArtikelB3.page11513">
+   <children>
+      <ImageView fitHeight="1011.0" fitWidth="1726.0" layoutX="-56.0" layoutY="-2.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../../../Image/BackGroundArtikel3.jpg" />
+         </image>
+      </ImageView>
+      <VBox layoutX="118.0" layoutY="94.0" prefHeight="118.0" prefWidth="1330.0" style="-fx-background-color: white; -fx-background-radius: 10;">
+         <padding>
+            <Insets left="25.0" />
+         </padding>
+         <children>
+            <JFXTextArea prefHeight="118.0" prefWidth="1306.0" text="Berbahaya dan Beracun! Kenali lebih lanjut tentang Sampah B3&#10;">
+               <font>
+                  <Font name="System Bold" size="33.0" />
+               </font>
+               <padding>
+                  <Insets left="105.0" top="18.0" />
+               </padding>
+            </JFXTextArea>
+         </children>
+      </VBox>
+      <ScrollPane layoutX="184.0" layoutY="238.0" prefHeight="502.0" prefWidth="1148.0">
+        <content>
+          <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="2618.0" prefWidth="1121.0">
+               <children>
+                  <ImageView fitHeight="409.0" fitWidth="683.0" layoutX="225.0" layoutY="24.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../../../../../Image/SampahB3.jpg" />
+                     </image>
+                  </ImageView>
+                  <JFXTextArea layoutX="68.0" layoutY="439.0" prefHeight="2480.0" prefWidth="1011.0" text="Kata B3 merupakan akronim dari bahan beracun dan berbahaya. Oleh karena itu, pengertian limbah B3 dapat diartikan sebagai suatu buangan atau limbah yang sifat dan konsentrasinya mengandung zat yang beracun dan berbahaya sehingga secara langsung maupun tidak langsung dapat merusak lingkungan, mengganggu kesehatan, dan mengancam kelangsungan hidup manusia serta organisme lainya. Limbah B3 bukan hanya dapat dihasilkan dari kegiatan industri. Kegiatan rumah tangga juga menghasilkan beberapa limbah jenis ini. Beberapa contoh limbah B3 yang dihasilkan rumah tangga domestik) di antaranya bekas pengharum ruangan, pemutih pakaian, deterjen pakaian, pembersih kamar mandi, pembesih kaca/jendela, pembersih lantai, pengkilat kayu, pembersih oven, pembasmi serangga, lem perekat, hair spray, dan batu baterai.&#10;&#10;Jenis Limbah B3&#10;Berdasarkan sumbernya, limbah B3 dibedakan menjadi 3 jenis yaitu :&#10;1.&#9;Limbah B3 dari sumber tidak spesifik. Limbah ini tidak berasal dari proses utama, melainkan dari kegiatan pemeliharaan alat, inhibitor korosi, pelarutan kerak, pencucian, pengemasan dan lain-lain.&#10;2.&#9;Limbah B3 dari sumber spesifik. Limbah ini berasal dari proses suatu industri (kegiatan utama).&#10;3.&#9;Limbah B3 dari sumber lain. Limbah ini berasal dari sumber yang tidak diduga, misalnya prodak kedaluwarsa, sisa kemasan, tumpahan, dan buangan produk yang tidak memenuhi spesifikasi.&#10;&#10;Sifat dan Klasifikasi Limbah B3&#10;Suatu limbah tergolong sebagai bahan berbahaya dan beracun jika ia memiliki sifat-sifat tertentu, di antaranya mudah meledak, mudah teroksidasi, mudah menyala, mengandung racun, bersifat korosifmenyebabkan iritasi, atau menimbulkan gejala-gejala kesehatan seperti karsinogenik, mutagenik, dan lain sebagainya.&#10;&#10;a. Mudah meledak (explosive)&#10;Limbah mudah meledak adalah limbah yang pada suhu dan tekanan standar dapat meledak karena dapat menghasilkan gas dengan suhu dan tekanan tinggi lewat reaksi fisika atau kimia sederhana. Limbah ini sangat berbahaya baik saat penanganannya, pengangkutan, hingga pembuangannya karena bisa menyebabkan ledakan besar tanpa diduga-duga. Adapun contoh limbah B3 dengan sifat mudah meledak misalnya limbah bahan eksplosif dan limbah laboratorium seperti asam prikat.&#10;&#10;b. Pengoksidasi (oxidizing)&#10;Limbah pengoksidasi adalah limbah yang dapat melepaskan panas karena teroksidasi sehingga menimbulkan api saat bereaksi dengan bahan lainnya. Limbah ini jika tidak ditangani dengan serius dapat menyebabkan kebakaran besar pada ekosistem. Contoh limbah b3 dengan sifat pengoksidasi misalnya kaporit.&#10;&#10;c. Mudah menyala (flammable)&#10;Limbah yang memiliki sifat mudah sekali menyala adalah limbah yang dapat terbakar karena kontak dengan udara, nyala api, air, atau bahan lainnya meski dalam suhu dan tekanan standar. Contoh limbah B3 yang mudah menyala misalnya pelarut benzena, pelarut toluena atau pelarut aseton yang berasal dari industri cat, tinta, pembersihan logam, dan laboratorium kimia.&#10;&#10;d. Beracun (moderately toxic)&#10;Limbah beracun adalah limbah yang memiliki atau mengandung zat yang bersifat racun bagi manusia atau hewan, sehingga menyebabkan keracunan, sakit, atau kematian baik melalui kontak pernafasan, kulit, maupun mulut. Contoh limbah b3 ini adalah limbah pertanian seperti buangan pestisida.&#10;&#10;e. Berbahaya (harmful)&#10;Limbah berbahaya adalah limbah yang baik dalam fase padat, cair maupun gas yang dapat menyebabkan bahaya terhadap kesehatan sampai tingkat tertentu melalui kontak inhalasi ataupun oral.&#10;&#10;f. Korosif (corrosive)&#10;Limbah yang bersifat korosif adalah limbah yang memiliki ciri dapat menyebabkan iritasi pada kulit, menyebabkan pengkaratan pada baja, mempunyai pH ≥ 2 (bila bersifat asam) dan pH ≥ 12,5 (bila bersifat basa). Contoh limbah B3 dengan ciri korosif misalnya, sisa asam sulfat yang digunakan dalam industri baja, limbah asam dari baterai dan accu, serta limbah pembersih sodium hidroksida pada industri logam.&#10;&#10;g. Bersifat iritasi (irritant)&#10;Limbah yang dapat menyebabkan iritasi adalah limbah yang menimbulkan sensitasi pada kulit, peradangan, maupun menyebabkan iritasi pernapasan, pusing, dan mengantuk bila terhirup. Contoh limbah ini adalah asam formiat yang dihasilkan dari industri karet.&#10;&#10;h. Berbahaya bagi lingkungan (dangerous to the environment)&#10;Limbah dengan karakteristik ini adalah limbah yang dapat menyebabkan kerusakan pada lingkungan dan ekosistem, misalnya limbah CFC atau Chlorofluorocarbon yang dihasilkan dari mesin pendingin&#10;&#10;i. Karsinogenik (carcinogenic), Teratogenik (teratogenic), Mutagenik (mutagenic)&#10;Limbah karsinogenik adalah limbah yang dapat menyebabkan timbulnya sel kanker, teratogenik adalah limbah yang mempengaruhi pembentukan embrio, sedangkan limbah mutagenik adalah limbah yang dapat menyebabkan perubahan kromosom.&#10;&#10;Bahaya Paparan Limbah B3&#10;Paparan bahan berbahaya dan beracun ke makhluk hidup, terutama manusia bisa terjadi melalui beberapa mekanisme. Di antaranya yaitu oral (mulut dan saluran pencernaan), inhalasi (saluran pernapasan), dermal (kulit), dan peritonial (via suntikan langsung ke peredaran darah).&#10;&#10;Jika terpapar, tingkat bahayanya bisa diklasifikasikan menjadi 2 kategori. Pertama adalah Kategori 1, yaitu jenis limbah yang dampaknya bersifat akut (cepat atau tiba-tiba), bersifat langsung, dan dapat berdampak negatif bagi lingkungan.&#10;Sedangkan Kategori 2 adalah jenis limbah yang dampaknya tidak akut, melainkan bersifat tidak langsung bagi manusia dan lingkungan. Artinya, dampak yang timbul tidak akan langsung dirasakan saat itu juga, namun dalam jangka panjang (sub kronis atau kronis).&#10; &#10;Standar Pengelolaan Limbah B3 di Indonesia&#10;Sebelumnya, standar utama pengelolaan limbah bersifat B3 di Indonesia diatur oleh pemerintah melalui PP Nomor 101 Tahun 2014. Sejak 2021, pemerintah Indonesia melalui Kementerian Lingkungan Hidup dan Kehutanan juga sudah mengeluarkan standar terbaru yaitu Permen LHK Nomor 6 Tahun 2021.&#10;&#10;Berdasarkan peraturan perundang-undangan yang berlaku, setiap orang yang menghasilkan limbah kategori B3 wajib melakukan kegiatan pengelolaan. Kegiatan tersebut meliputi pengurangan, penyimpanan, pengumpulan, pengangkutan, pemanfaatan, pengolahan, dan/atau penimbunan sesuai standar yang sudah ditetapkan.&#10;&#10;Sebagai jenis limbah yang dampaknya sangat signifikan bagi manusia maupun lingkungan, standar pengelolaan B3 harus diatur secara khusus. Terutama bagi perusahaan dan industri besar, penting untuk melakukan penanganan limbah secara profesional.&#10;Mutu Certification adalah lembaga sertifikasi, inspeksi, dan pengujian yang telah berpengalaman mengaudit sistem penanganan dan pembuangan limbah industri, termasuk limbah B3.&#10;&#10;" unFocusColor="#4d4d4d00">
+                     <font>
+                        <Font size="16.0" />
+                     </font>
+                  </JFXTextArea>
+               </children>
+            </AnchorPane>
+        </content>
+      </ScrollPane>
+      <JFXButton fx:id="Home" layoutX="1347.0" layoutY="44.0" onAction="#keHomePage" style="-fx-cursor: hand;" text="HOME" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="18.0" />
+         </font>
+      </JFXButton>
+      <JFXButton fx:id="Artikel" layoutX="1234.0" layoutY="44.0" onAction="#keArtikel" style="-fx-cursor: hand;" text="ARTIKEL" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="18.0" />
+         </font>
+      </JFXButton>
+   </children>
+</AnchorPane>

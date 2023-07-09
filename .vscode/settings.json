@@ -1,0 +1,13 @@
+{
+    "java.project.referencedLibraries": [
+        "lib/**/*.jar",
+        "d:\\FPA SEMESTER 2\\xstream-1.4.20.jar",
+        "d:\\jfoenix-9.0.10.jar",
+        "c:\\Users\\ASUS\\OneDrive\\Documents\\Perkuliahan\\Semester 2\\Rekayasa Perangkat Lunak\\jfoenix-9.0.10.jar",
+        "c:\\Users\\ASUS\\OneDrive\\Documents\\Perkuliahan\\Semester 2\\Fundamen Pengembangan Aplikasi\\xstream-1.4.20.jar",
+        "c:\\Users\\RAKA\\Downloads\\xstream-1.4.20.jar",
+        "c:\\Users\\RAKA\\Downloads\\jfoenix-9.0.10.jar",
+        "c:\\Users\\User\\Downloads\\jfoenix-9.0.10.jar",
+        "c:\\Users\\User\\Downloads\\xstream-1.4.20.jar"
+    ]
+}

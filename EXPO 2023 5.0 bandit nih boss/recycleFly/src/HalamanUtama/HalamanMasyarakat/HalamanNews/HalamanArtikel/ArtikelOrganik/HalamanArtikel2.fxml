@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import com.jfoenix.controls.JFXTextArea?>
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.ScrollPane?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="900.0" prefWidth="1600.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="HalamanUtama.HalamanMasyarakat.HalamanNews.HalamanArtikel.ArtikelOrganik.page11512">
+   <children>
+      <ImageView fitHeight="1011.0" fitWidth="1726.0" layoutX="-56.0" layoutY="-2.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../../../Image/BackgroundArtikel2.jpg" />
+         </image>
+      </ImageView>
+      <VBox layoutX="118.0" layoutY="82.0" prefHeight="120.0" prefWidth="1330.0" style="-fx-background-color: white; -fx-background-radius: 10;">
+         <padding>
+            <Insets left="25.0" />
+         </padding>
+         <opaqueInsets>
+            <Insets />
+         </opaqueInsets>
+         <children>
+            <JFXTextArea prefHeight="150.0" prefWidth="1235.0" text="Bahaya Sampah Organik Yang Belum Terkelola Secara Maksimal&#10;" unFocusColor="#4d4d4d00">
+               <font>
+                  <Font name="System Bold" size="35.0" />
+               </font>
+               <VBox.margin>
+                  <Insets left="70.0" top="5.0" />
+               </VBox.margin>
+            </JFXTextArea>
+         </children>
+      </VBox>
+      <ScrollPane layoutX="184.0" layoutY="227.0" prefHeight="502.0" prefWidth="1135.0">
+        <content>
+          <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="1747.0" prefWidth="1114.0">
+               <children>
+                  <ImageView fitHeight="398.0" fitWidth="700.0" layoutX="225.0" layoutY="24.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../../../../../Image/SampahOrganik.jpg" />
+                     </image>
+                  </ImageView>
+                  <JFXTextArea layoutX="104.0" layoutY="437.0" prefHeight="2087.0" prefWidth="946.0" text="Bau busuk menyengat hingga ke rongga hidung saat berada di bagian belakang Pasar Induk Keramatjati, Kampung Tengah, Kecamatan Keramatjati, Kota Jakarta Timur, DKI Jakarta. Pasalnya, tumpukan sampah yang didominasi oleh material organik dari berbagai macam sayur-sayuran dan buah-buahan itu sudah membusuk dan warnanya menghitam.&#10;Tidak jauh dari tumpukan sampah, beberapa buruh angkut terlihat menurunkan sayur yang sudah dikemas dengan karung goni maupun plastik dari atas pickup dan truk yang baru datang. Sebagian lagi nampak memisahkan beberapa sayuran yang kondisinya sudah membusuk. Mereka menyisihkannya dengan menggunakan pisau kecil.&#10;&#10;Berdiri diantara timbunan sampah, dua orang perempuan sedang memungut sayur dan buah apkiran untuk dibawa pulang. Keduanya menanti hibah sisa barang dagang pasar untuk diolah kembali. Beberapa barang terlihat busuk hanya luarnya saja. Yang tidak layak dimakan mereka sortir, dikupas dan dibuang Sedangkan sisanya bisa dimasak dan dijual ke peternak kelinci maupun kambing. “Kalau dijual paling lakunya hanya Rp2000-Rp3000 ribu sekarung,” ujar Sujiem, 65 tahun, awal bulan November 2022.&#10;&#10;Berbeda dengan Sujiem yang merasa mendapatkan keberkahan dari sampah. Sedangkan bagi Ade, 59 tahun mengaku adanya tumpukan sampah di pasar yang berdiri sejak tahun 1971 ini menjadi masalah. Apalagi saat musim hujan. Akibat sampah yang tercecer kondisi jalan yang biasa ia lewati menjadi becek. Dibandingkan dengan musim kemarau saat musim hujan bau sampah juga semakin menyengat.&#10;&#10;Pria yang sehari-hari berprofesi sebagai supir jasa angkutan ini mengatakan, kondisi sampah yang sebagian sudah tercampur dengan sampah anorganik itu sudah menumpuk berhari-hari. Padahal, para pedagang secara rutin sudah membayar iuran untuk sampah. Tetapi pengangkutan hanya dilakukan beberapa kali saja.&#10;&#10;Ni Made Indra Wahyuni, Program Manager of Food Smart City Pusat Pendidikan Lingkungan Hidup (PPLH) Bali mengatakan, sampah yang menumpuk selain menimbulkan bau tidak sedap estetika lingkungan juga menjadi tidak bagus Bukan hanya sampah plastik, material organik baik itu dari sayur, buah maupun sisa makanan jika tidak terkelola dengan baik selain berbahaya bagi lingkungan juga riskan terhadap kesehatan manusia. Dampaknya pernafasan menjadi terganggu.&#10;&#10;Apabila sampah organik menumpuk dan membusuk terlalu lama bisa menimbulkan berbagai macam penyakit dari bakteri dan virus seperti diare, kanker, tifus, disentri, jamur, kolera. “Sampah jika tidak dikelola dengan baik bisa mengakibatkan udara jadi tercemar. Selain itu air dan tanah juga menjadi kotor. Yang mengkhawatirkan itu sewaktu-waktu bisa meledak, karena tumpukan sampah organik juga bisa menghasilkan gas metana,” jelas Indra, Kamis (24/11/2022).&#10;&#10;Di Bali misalnya, komposisi sampah terbanyak yaitu material organik terutama dari upacara keagamaan sekitar 70% dan anorganik 30%. Selain di pasar tradisional riset timbulan sisa makanan atau food waste juga dilakukan di rumah makan, rumah tangga dan supermarket atau retail.&#10;&#10;Di Indonesia, material organik dari sampah makanan ini sudah menjadi limbah dominan. Hal itu dibuktikan lewat data Sistem Informasi Pengelolaan Sampah Nasional (SISPN) yang mencatat bahwa pada tahun 2021, sampah makanan menduduki tampuk klasemen limbah yang mengotori Indonesia. “Jika dilihat dari komposisi sumbernya ya bisa dari rumah tangga, pasar, rumah makan, penginapan. Untuk pengelolaan kewenangannya lebih banyak ke teman-teman di Pemerintah Daerah,” ujar Asep Setiawan, Fungsional Lingkungan Hidup Ahli Madya Direktorat Jenderal Pengelolaan Sampah Limbah B3, Kementerian Lingkungan Hidup dan Kehutanan. &#10;Untuk pengurangan sampah dari produsen pemerintah pusat sebenarnya sudah memiliki landasan hukum yang mengatur, seperti yang tertuang dalam Peraturan Menteri Lingkungan Hidup dan Kehutanan Nomor 75 Tahun 2019 tentang Peta Jalan Pengurangan Sampah oleh Produsen dari 2020-2029.&#10;&#10;Peraturan tersebut merupakan turunan dari UU Nomor 18 Tahun 2008 tentang Pengelolaan Sampah seperti dimandatkan dalam pasal 15.&#10;" unFocusColor="#4d4d4d00">
+                     <font>
+                        <Font size="16.0" />
+                     </font>
+                  </JFXTextArea>
+               </children>
+            </AnchorPane>
+        </content>
+      </ScrollPane>
+      <JFXButton fx:id="Home" layoutX="1347.0" layoutY="44.0" onAction="#keHomePage" style="-fx-cursor: hand;" text="HOME" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="18.0" />
+         </font>
+      </JFXButton>
+      <JFXButton fx:id="Artikel" layoutX="1234.0" layoutY="44.0" onAction="#keArtikel" style="-fx-cursor: hand;" text="ARTIKEL" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="18.0" />
+         </font>
+      </JFXButton>
+   </children>
+</AnchorPane>

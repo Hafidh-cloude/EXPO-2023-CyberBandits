@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXTextArea?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.effect.Light.Distant?>
+<?import javafx.scene.effect.Lighting?>
+<?import javafx.scene.effect.Shadow?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.paint.Color?>
+<?import javafx.scene.shape.Line?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="900.0" prefWidth="1600.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="HalamanUtama.HalamanMasyarakat.B3.Medis.pageMedis">
+   <children>
+      <ImageView fitHeight="312.0" fitWidth="315.0" layoutX="1200.0" layoutY="554.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../../Image/medical-equipment.png" />
+         </image>
+         <effect>
+            <Lighting specularExponent="4.49">
+               <bumpInput>
+                  <Shadow />
+               </bumpInput>
+               <light>
+                  <Light.Distant>
+                     <color>
+                        <Color red="0.8500000238418579" green="0.8500000238418579" blue="0.8500000238418579" />
+                     </color>
+                  </Light.Distant>
+               </light>
+            </Lighting>
+         </effect>
+      </ImageView>
+      <AnchorPane layoutX="256.0" layoutY="150.0" prefHeight="78.0" prefWidth="200.0" style="-fx-background-color: WHITE; -fx-background-radius: 20;" />
+      <AnchorPane layoutX="108.0" layoutY="223.0" prefHeight="322.0" prefWidth="399.0" style="-fx-background-color: d9d9d9; -fx-background-radius: 20;">
+         <children>
+            <ImageView fitHeight="285.0" fitWidth="386.0" layoutX="57.0" layoutY="23.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../../../Image/medis.jpeg" />
+               </image>
+               <effect>
+                  <Lighting specularExponent="4.13">
+                     <bumpInput>
+                        <Shadow />
+                     </bumpInput>
+                     <light>
+                        <Light.Distant />
+                     </light>
+                  </Lighting>
+               </effect>
+            </ImageView>
+         </children>
+      </AnchorPane>
+      <Button layoutX="1189.0" layoutY="614.0" mnemonicParsing="false" onAction="#keJual" prefHeight="61.0" prefWidth="137.0" text="JUAL">
+         <font>
+            <Font name="System Bold" size="14.0" />
+         </font></Button>
+      <Button fx:id="buttonKembali" layoutX="84.0" layoutY="789.0" mnemonicParsing="false" onAction="#untukKembali" prefHeight="52.0" prefWidth="117.0" text="Kembali">
+         <font>
+            <Font name="System Bold" size="14.0" />
+         </font></Button>
+      <JFXTextArea focusColor="#28292b" layoutX="528.0" layoutY="268.0" prefHeight="255.0" prefWidth="866.0" text="Berikut adalah deskripsi sampah medis:&#10;&#10;1.Jenis Sampah: Sampah medis mencakup berbagai jenis limbah, termasuk bahan bekas yang digunakan dalam perawatan medis seperti jarum suntik, perban, kassa, sarung tangan, masker, alat bedah, peralatan laboratorium yang terkontaminasi, bahan kimia medis, obat-obatan yang kadaluwarsa atau tidak terpakai, limbah darah atau bahan tubuh manusia, dan limbah farmasi.&#10;&#10;2.Potensi Bahaya: Sampah medis dapat mengandung bahan beracun, infeksius, atau radioaktif yang dapat membahayakan kesehatan manusia dan lingkungan jika tidak dikelola dengan benar. Infeksi dan penyebaran penyakit dapat terjadi jika sampah medis yang terkontaminasi darah atau patogen masuk ke dalam lingkungan.&#10;&#10;3.Pengelolaan yang Tepat: Sampah medis harus dikelola dengan hati-hati sesuai dengan standar keamanan dan sanitasi yang ketat. Hal ini meliputi pemisahan, pengumpulan, penyimpanan, transportasi, pengolahan, dan pembuangan yang sesuai dengan pedoman dan peraturan yang berlaku. Prosedur sterilisasi dan pelarangan pemusnahan sampah medis dengan sampah rumah tangga adalah langkah-langkah penting dalam pengelolaan yang aman.:&#10;&#10;1. Mendaur ulang: Mendaur ulang botol-botol plastik dan kaca untuk mengurangi penggunaan bahan baku baru dan mengurangi limbah.&#10;&#10;2. Mengurangi penggunaan: Menggunakan alternatif seperti botol tumbler atau produk dengan kemasan yang dapat digunakan kembali untuk mengurangi jumlah sampah botol yang dihasilkan.&#10;&#10;3. Edukasi dan kesadaran: Meningkatkan kesadaran masyarakat tentang pentingnya pengelolaan sampah yang baik dan pentingnya mengurangi penggunaan botol sekali pakai." unFocusColor="TRANSPARENT">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </JFXTextArea>
+      <Line endX="1408.0001220703125" layoutX="202.0" layoutY="139.0" startX="-202.00003051757812" startY="1.52587890625E-5" />
+      <ImageView fitHeight="84.0" fitWidth="81.0" layoutX="123.0" layoutY="30.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../../Image/recycle.png" />
+         </image>
+         <effect>
+            <Lighting specularExponent="4.5">
+               <bumpInput>
+                  <Shadow />
+               </bumpInput>
+               <light>
+                  <Light.Distant />
+               </light>
+            </Lighting>
+         </effect>
+      </ImageView>
+      <Text fill="#727272" fontSmoothingType="LCD" layoutX="216.0" layoutY="72.0" strokeLineCap="BUTT" strokeType="OUTSIDE" strokeWidth="0.0" text="RecycleFly." wrappingWidth="183.849609375">
+         <font>
+            <Font name="System Bold Italic" size="36.0" />
+         </font>
+      </Text>
+      <Text fill="#727272" layoutX="218.0" layoutY="95.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Go Green, Go Smart!">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Text>
+      <Text layoutX="536.0" layoutY="246.0" strokeType="OUTSIDE" strokeWidth="0.0" text="DESKRIPSI">
+         <font>
+            <Font name="System Bold Italic" size="14.0" />
+         </font>
+      </Text>
+      <AnchorPane layoutX="200.0" layoutY="172.0" prefHeight="78.0" prefWidth="200.0" style="-fx-background-color: D9D9D9; -fx-background-radius: 20;">
+         <children>
+            <Text layoutX="48.0" layoutY="50.0" strokeType="OUTSIDE" strokeWidth="0.0" text="MEDIS" wrappingWidth="117.60000000000002">
+               <font>
+                  <Font name="Arial Black" size="28.0" />
+               </font>
+            </Text>
+         </children>
+      </AnchorPane>
+      <Text layoutX="111.0" layoutY="569.0" strokeType="OUTSIDE" strokeWidth="0.0" text="ALAMAT PENGEPUL: ">
+         <font>
+            <Font name="System Bold Italic" size="14.0" />
+         </font>
+      </Text>
+      <JFXTextArea layoutX="109.0" layoutY="576.0" prefHeight="100.0" prefWidth="407.0" text="Jl. HOS Cokroaminoto No.10, Pakuncen, Wirobrajan, Kota Yogyakarta, Daerah Istimewa Yogyakarta 55253&#10;" unFocusColor="#4d4d4d00">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </JFXTextArea>
+   </children>
+</AnchorPane>

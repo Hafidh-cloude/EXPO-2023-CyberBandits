@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import com.jfoenix.controls.JFXTextArea?>
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.ScrollPane?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="900.0" prefWidth="1600.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="HalamanUtama.HalamanMasyarakat.HalamanNews.HalamanArtikel.ArtikelDaurUlang.page11514">
+   <children>
+      <ImageView fitHeight="1011.0" fitWidth="1726.0" layoutX="-56.0" layoutY="-2.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../../../Image/BackgrounArtikel4.jpg" />
+         </image>
+      </ImageView>
+      <VBox layoutX="118.0" layoutY="94.0" prefHeight="94.0" prefWidth="1330.0" style="-fx-background-color: white; -fx-background-radius: 10;">
+         <padding>
+            <Insets left="25.0" />
+         </padding>
+         <children>
+            <JFXTextArea prefHeight="66.0" prefWidth="1306.0" text="Marilah melestarikan lingkungan dengan mendaur ulang sampah!">
+               <font>
+                  <Font name="System Bold" size="35.0" />
+               </font>
+               <VBox.margin>
+                  <Insets left="66.0" top="20.0" />
+               </VBox.margin>
+            </JFXTextArea>
+         </children>
+      </VBox>
+      <ScrollPane layoutX="184.0" layoutY="238.0" prefHeight="502.0" prefWidth="1148.0">
+        <content>
+          <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="1760.0" prefWidth="1124.0">
+               <children>
+                  <ImageView fitHeight="409.0" fitWidth="612.0" layoutX="286.0" layoutY="19.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../../../../../Image/DaurUlang.jpg" />
+                     </image>
+                  </ImageView>
+                  <JFXTextArea layoutX="83.0" layoutY="439.0" prefHeight="1435.0" prefWidth="1026.0" text="1. Reduce&#10;Dalam 3R (Reduce, Reuse, Recycle), ‘reduce’ atau mengurangi adalah konsep untuk mengurangi penggunaan bahan yang tidak perlu dan mengurangi jumlah sampah yang dihasilkan. Hal ini dapat dilakukan dengan cara mengurangi konsumsi sumber daya alam dan mengurangi produksi limbah.&#10;Beberapa contoh pengurangan penggunaan bahan yang tidak perlu adalah dengan membeli produk dengan kemasan yang ramah lingkungan, menggunakan kantong belanjaan yang dapat digunakan kembali, atau memilih produk yang memiliki masa pakai yang lebih lama.&#10;Manfaat dari konsep reduce adalah dapat mengurangi penggunaan sumber daya alam dan mengurangi jumlah sampah yang dihasilkan. Dengan cara ini, akan mengurangi dampak negatif terhadap lingkungan.&#10;&#10;2. Reuse&#10;Dalam 3R (Reduce, Reuse, Recycle), ‘reuse’ atau menggunakan kembali adalah konsep untuk menggunakan kembali bahan yang masih bisa digunakan dan meminimalisir jumlah sampah. Hal ini dilakukan dengan cara memanfaatkan kembali produk yang sudah tidak digunakan.&#10;Contohnya dengan memanfaatkan kantong belanjaan yang sudah tidak digunakan lagi sebagai tempat sampah atau membuat tas belanjaan dari bahan-bahan bekas lain seperti baju atau celana yang tidak dipakai lagi.&#10;Manfaat dari konsep ini, Anda dapat mengurangi jumlah sampah yang dihasilkan dan mengurangi penggunaan sumber daya alam yang baru. Penerapan konsep reuse dapat meminimalisasi dampak buruk terhadap lingkungan hidup.&#10;&#10;3. Recycle&#10;Dalam 3R (Reduce, Reuse, Recycle), ‘recycle’ atau mendaur ulang adalah konsep untuk mengolah kembali sampah menjadi bahan yang bisa digunakan kembali. Anda bisa melakukannya dengan cara memilah sampah dan mengolahnya menjadi bahan baku yang bisa digunakan kembali.&#10;Beberapa contoh dari konsep ini adalah dengan mengolah sampah kertas menjadi kertas daur ulang atau mengolah botol plastik menjadi serat yang bisa digunakan untuk membuat produk lain seperti baju atau tas.&#10;Manfaat dari konsep recycle juga sama, yaitu mengurangi jumlah sampah yang ada dan mengurangi penggunaan sumber daya alam yang baru. Melalui cara ini, diharapkan dapat mengurangi dampak negatif terhadap lingkungan dan meningkatkan efisiensi penggunaan sumber daya alam.&#10;Dengan menerapkan konsep Reduce Reuse Recycle, selain jumlah dan dampak sampah terhadap lingkungan dapat dikurangi, masyarakat luas juga bisa meningkatkan rasa kepedulian dan kesadaran pada lingkungan.&#10;&#10;Mengenal Jenis-jenis Sampah dan Cara Mendaur Ulangnya&#10;Sampah adalah material yang tidak lagi dibutuhkan atau dianggap tidak berguna dan dibuang. Namun, sampah bisa dikurangi jumlahnya dengan menerapkan konsep Reduce, Reuse, Recycle. Sampah dapat dibedakan menjadi beberapa jenis, yaitu:&#10;&#10;1. Sampah Organik&#10;Ini adalah sampah yang berasal dari sisa-sisa makanan dan bahan organik lainnya. Contohnya, sisa sayuran, buah-buahan, sisa makanan, daun, dan ranting. Sampah organik dapat didaur ulang menjadi kompos yang bisa digunakan sebagai pupuk organik.&#10;Sampah organik dapat didaur ulang menjadi kompos. Kompos dapat digunakan sebagai pupuk organik untuk tanaman. Proses pengomposan dapat dilakukan dengan menumpuk sisa-sisa organik di area tertentu dan memberikan waktu agar bahan organik terurai secara alami dan menjadi kompos.&#10;&#10;2. Sampah Anorganik&#10;Sampah anorganik adalah sampah yang berasal dari bahan-bahan non-organik seperti logam, plastik, kaca, dan kertas. Sampah anorganik dapat didaur ulang menjadi bahan baku yang bisa digunakan kembali dalam produksi.&#10;Sampah anorganik dapat didaur ulang menjadi bahan baku yang bisa digunakan kembali dalam produksi. Contohnya, kertas bekas dapat didaur ulang menjadi kertas baru, atau botol plastik dapat didaur ulang menjadi serat plastik yang digunakan untuk membuat produk plastik baru.&#10;&#10;3. Sampah B3&#10;Sampah B3 adalah sampah berbahaya dan beracun seperti baterai, cat, pestisida, dan obat-obatan. Sampah B3 memerlukan penanganan khusus dan harus didaur ulang secara aman agar tidak membahayakan lingkungan dan kesehatan manusia.&#10;Sampah B3 memerlukan penanganan khusus dan harus didaur ulang secara aman agar tidak membahayakan lingkungan dan kesehatan manusia. Misalnya, baterai dapat didaur ulang dengan cara memisahkan bahan kimia yang terkandung di dalamnya dan menggunakannya kembali sebagai bahan baku.&#10;&#10;" unFocusColor="#4d4d4d00">
+                     <font>
+                        <Font size="16.0" />
+                     </font>
+                  </JFXTextArea>
+               </children>
+            </AnchorPane>
+        </content>
+      </ScrollPane>
+      <JFXButton fx:id="Home" layoutX="1347.0" layoutY="44.0" onAction="#keHomePage" style="-fx-cursor: hand;" text="HOME" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="18.0" />
+         </font>
+      </JFXButton>
+      <JFXButton fx:id="Artikel" layoutX="1234.0" layoutY="44.0" onAction="#keArtikel" style="-fx-cursor: hand;" text="ARTIKEL" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="18.0" />
+         </font>
+      </JFXButton>
+   </children>
+</AnchorPane>

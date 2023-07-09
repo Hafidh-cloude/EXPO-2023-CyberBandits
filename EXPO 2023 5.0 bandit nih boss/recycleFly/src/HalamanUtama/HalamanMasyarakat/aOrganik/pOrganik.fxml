@@ -1,0 +1,215 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.effect.Light.Distant?>
+<?import javafx.scene.effect.Lighting?>
+<?import javafx.scene.effect.Reflection?>
+<?import javafx.scene.effect.Shadow?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.paint.Color?>
+<?import javafx.scene.shape.Line?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane id="AnchorPane" prefHeight="900.0" prefWidth="1600.0" style="-fx-background-color: WHITE;" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="HalamanUtama.HalamanMasyarakat.aOrganik.pageOrganik">
+    <children>
+      <Text fx:id="textOrganik" layoutX="723.0" layoutY="173.0" strokeType="OUTSIDE" strokeWidth="0.0" text="ORGANIK" wrappingWidth="190.20132446289062">
+         <font>
+            <Font name="System Bold Italic" size="36.0" />
+         </font>
+         <effect>
+            <Reflection fraction="0.8" topOpacity="0.23" />
+         </effect></Text>
+      <Button fx:id="buah" layoutX="467.0" layoutY="313.0" mnemonicParsing="false" onAction="#keBuah" prefHeight="52.0" prefWidth="126.0" style="-fx-background-color: GRAY;" text="JUAL">
+         <font>
+            <Font name="System Bold" size="18.0" />
+         </font></Button>
+      <Button fx:id="telur" layoutX="1189.0" layoutY="500.0" mnemonicParsing="false" onAction="#keTelur" prefHeight="52.0" prefWidth="126.0" style="-fx-background-color: gray;" text="JUAL">
+         <font>
+            <Font name="System Bold" size="18.0" />
+         </font></Button>
+      <Button fx:id="sayur" layoutX="1186.0" layoutY="303.0" mnemonicParsing="false" onAction="#keSayur" prefHeight="52.0" prefWidth="126.0" style="-fx-background-color: gray;" text="JUAL">
+         <font>
+            <Font name="System Bold" size="18.0" />
+         </font></Button>
+      <Button fx:id="kertas" layoutX="465.0" layoutY="719.0" mnemonicParsing="false" onAction="#keKertas" prefHeight="52.0" prefWidth="126.0" style="-fx-background-color: gray;" text="JUAL">
+         <font>
+            <Font name="System Bold" size="18.0" />
+         </font></Button>
+      <Button fx:id="daun" layoutX="464.0" layoutY="510.0" mnemonicParsing="false" onAction="#keDaun" prefHeight="52.0" prefWidth="126.0" style="-fx-background-color: GRAY;" text="JUAL">
+         <font>
+            <Font name="System Bold" size="18.0" />
+         </font></Button>
+      <Button fx:id="buttonKembali" layoutX="126.0" layoutY="802.0" mnemonicParsing="false" onAction="#untukKembali" prefHeight="50.0" prefWidth="95.0" text="KEMBALI">
+         <font>
+            <Font name="System Bold" size="14.0" />
+         </font></Button>
+      <VBox layoutX="272.0" layoutY="233.0" prefHeight="139.0" prefWidth="179.0">
+         <children>
+            <ImageView fitHeight="144.0" fitWidth="186.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../../Image/buah.png" />
+               </image>
+               <effect>
+                  <Lighting specularExponent="4.0">
+                     <bumpInput>
+                        <Shadow />
+                     </bumpInput>
+                     <light>
+                        <Light.Distant />
+                     </light>
+                  </Lighting>
+               </effect>
+            </ImageView>
+         </children>
+      </VBox>
+      <Text layoutX="464.0" layoutY="257.0" strokeType="OUTSIDE" strokeWidth="0.0" text="SAMPAH BUAH">
+         <font>
+            <Font name="System Bold" size="18.0" />
+         </font>
+      </Text>
+      <Text layoutX="480.0" layoutY="276.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Rp. 3.000 per Kg" wrappingWidth="86.701171875" />
+      <Line endX="258.6000061035156" layoutX="385.0" layoutY="385.0" startX="-132.86666870117188" />
+      <VBox layoutX="276.0" layoutY="414.0" prefHeight="161.0" prefWidth="187.0">
+         <children>
+            <ImageView fitHeight="159.0" fitWidth="178.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../../Image/kotoran%20hewan.jpg" />
+               </image>
+               <effect>
+                  <Lighting specularExponent="4.0">
+                     <bumpInput>
+                        <Shadow />
+                     </bumpInput>
+                     <light>
+                        <Light.Distant />
+                     </light>
+                  </Lighting>
+               </effect>
+            </ImageView>
+         </children>
+      </VBox>
+      <Text layoutX="472.0" layoutY="431.0" strokeType="OUTSIDE" strokeWidth="0.0" text="KOTORAN HEWAN">
+         <font>
+            <Font name="System Bold" size="18.0" />
+         </font>
+      </Text>
+      <Text layoutX="479.0" layoutY="453.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Rp. 3.000 per Kg" wrappingWidth="86.701171875" />
+      <Line endX="260.7333068847656" endY="6.103515625E-5" layoutX="383.0" layoutY="587.0" startX="-133.93331909179688" startY="6.103515625E-5" />
+      <VBox layoutX="271.0" layoutY="632.0" prefHeight="135.0" prefWidth="185.0">
+         <children>
+            <ImageView fitHeight="145.0" fitWidth="182.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../../Image/kertas%202.0.jpeg" />
+               </image>
+            </ImageView>
+         </children>
+         <effect>
+            <Lighting specularExponent="4.0">
+               <bumpInput>
+                  <Shadow />
+               </bumpInput>
+               <light>
+                  <Light.Distant />
+               </light>
+            </Lighting>
+         </effect>
+      </VBox>
+      <Text layoutX="468.0" layoutY="655.0" strokeType="OUTSIDE" strokeWidth="0.0" text="SAMPAH KERTAS" wrappingWidth="161.455078125">
+         <font>
+            <Font name="System Bold" size="18.0" />
+         </font>
+      </Text>
+      <Text layoutX="469.0" layoutY="674.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Rp. 3.000 per Kg" wrappingWidth="86.701171875" />
+      <VBox layoutX="1017.0" layoutY="229.0" prefHeight="157.0" prefWidth="157.0">
+         <children>
+            <ImageView fitHeight="146.0" fitWidth="158.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../../Image/sayur.jpeg" />
+               </image>
+               <effect>
+                  <Lighting specularExponent="4.0">
+                     <bumpInput>
+                        <Shadow />
+                     </bumpInput>
+                     <light>
+                        <Light.Distant />
+                     </light>
+                  </Lighting>
+               </effect>
+            </ImageView>
+         </children>
+      </VBox>
+      <Text layoutX="1186.0" layoutY="259.0" strokeType="OUTSIDE" strokeWidth="0.0" text="SAMPAH SAYUR">
+         <font>
+            <Font name="System Bold" size="18.0" />
+         </font>
+      </Text>
+      <Text layoutX="1189.0" layoutY="282.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Rp. 3.000 per Kg" wrappingWidth="86.701171875" />
+      <Line endX="258.6000061035156" layoutX="1120.0" layoutY="381.0" startX="-132.86666870117188" />
+      <VBox layoutX="1017.0" layoutY="409.0" prefHeight="135.0" prefWidth="150.0">
+         <children>
+            <ImageView fitHeight="153.0" fitWidth="166.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../../Image/TELUR.jpeg" />
+               </image>
+               <effect>
+                  <Lighting specularExponent="4.0">
+                     <bumpInput>
+                        <Shadow />
+                     </bumpInput>
+                     <light>
+                        <Light.Distant />
+                     </light>
+                  </Lighting>
+               </effect>
+            </ImageView>
+         </children>
+      </VBox>
+      <Text layoutX="1178.0" layoutY="439.0" strokeType="OUTSIDE" strokeWidth="0.0" text="SAMPAH TELUR">
+         <font>
+            <Font name="System Bold" size="18.0" />
+         </font>
+      </Text>
+      <Text layoutX="1182.0" layoutY="462.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Rp. 3.000 per Kg" wrappingWidth="86.701171875" />
+      <Line endX="249.0" layoutX="1131.0" layoutY="579.0" startX="-143.5999755859375" />
+      <ImageView fitHeight="84.0" fitWidth="88.0" layoutX="94.0" layoutY="18.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../Image/recycle.png" />
+         </image>
+         <effect>
+            <Lighting diffuseConstant="1.37" specularConstant="2.0">
+               <bumpInput>
+                  <Shadow />
+               </bumpInput>
+               <light>
+                  <Light.Distant azimuth="41.7">
+                     <color>
+                        <Color red="0.4526315927505493" green="0.4056920111179352" blue="0.4056920111179352" />
+                     </color>
+                  </Light.Distant>
+               </light>
+            </Lighting>
+         </effect>
+      </ImageView>
+      <Text fill="#727272" fontSmoothingType="LCD" layoutX="195.0" layoutY="58.0" strokeLineCap="BUTT" strokeType="OUTSIDE" strokeWidth="0.0" text="RecycleFly.">
+         <font>
+            <Font name="System Bold Italic" size="36.0" />
+         </font>
+      </Text>
+      <Text fill="#727272" layoutX="190.0" layoutY="87.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Go Green, Go Smart!">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Text>
+      <Line endX="1446.0001220703125" layoutX="154.0" layoutY="122.0" startX="-144.13331604003906" />
+      <Button fx:id="buttonCatat" layoutX="1282.0" layoutY="817.0" mnemonicParsing="false" onAction="#keCatat" prefHeight="54.0" prefWidth="222.0" text="PENCATATAN">
+         <font>
+            <Font name="System Bold" size="18.0" />
+         </font>
+      </Button>
+    </children>
+</AnchorPane>

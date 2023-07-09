@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXTextArea?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.effect.Light.Distant?>
+<?import javafx.scene.effect.Lighting?>
+<?import javafx.scene.effect.Shadow?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.shape.Line?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="900.0" prefWidth="1600.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="HalamanUtama.HalamanMasyarakat.aOrganik.Buah.pageBuah">
+   <children>
+      <AnchorPane layoutX="248.0" layoutY="226.0" prefHeight="69.0" prefWidth="209.0" style="-fx-background-color: white; -fx-background-radius: 20;" />
+      <AnchorPane layoutX="107.0" layoutY="270.0" prefHeight="322.0" prefWidth="399.0" style="-fx-background-color: d9d9d9; -fx-background-radius: 20;">
+         <children>
+            <ImageView fitHeight="272.0" fitWidth="357.0" layoutX="21.0" layoutY="32.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../../../Image/buah.png" />
+               </image>
+               <effect>
+                  <Lighting specularExponent="4.12">
+                     <bumpInput>
+                        <Shadow />
+                     </bumpInput>
+                     <light>
+                        <Light.Distant />
+                     </light>
+                  </Lighting>
+               </effect>
+            </ImageView>
+         </children>
+      </AnchorPane>
+      <ImageView fitHeight="401.0" fitWidth="429.0" layoutX="1128.0" layoutY="531.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../../Image/fruit.png" />
+         </image>
+         <effect>
+            <Lighting specularExponent="4.13">
+               <bumpInput>
+                  <Shadow />
+               </bumpInput>
+               <light>
+                  <Light.Distant />
+               </light>
+            </Lighting>
+         </effect>
+      </ImageView>
+      <Button layoutX="1189.0" layoutY="614.0" mnemonicParsing="false" onAction="#keJual" prefHeight="61.0" prefWidth="137.0" text="JUAL">
+         <font>
+            <Font name="System Bold" size="14.0" />
+         </font></Button>
+      <Button fx:id="buttonKembali" layoutX="84.0" layoutY="789.0" mnemonicParsing="false" onAction="#untukKembali" prefHeight="52.0" prefWidth="117.0" text="Kembali">
+         <font>
+            <Font name="System Bold" size="14.0" />
+         </font></Button>
+      <JFXTextArea focusColor="#28292b" layoutX="527.0" layoutY="315.0" prefHeight="255.0" prefWidth="866.0" text="Sampah buah merujuk pada sisa-sisa atau limbah yang dihasilkan dari buah-buahan setelah dikonsumsi atau saat proses pemrosesan. Ini mencakup bagian-bagian seperti kulit, biji, tangkai, atau bagian lain dari buah yang tidak dikonsumsi.&#10;&#10;Berikut adalah deskripsi sampah buah:&#10;&#10;1. Komponen Sampah: Sampah buah terdiri dari berbagai komponen seperti kulit, biji, tangkai, daun, dan bagian-bagian lainnya yang tidak dimakan atau digunakan. Ini dapat mencakup sisa-sisa daging buah yang terlepas saat dikupas atau dikonsumsi.&#10;&#10;2. Potensi Pemanfaatan: Meskipun dianggap sebagai sampah, sebagian besar komponen sampah buah masih memiliki nilai nutrisi atau dapat dimanfaatkan untuk tujuan lain. Misalnya, kulit atau daun buah tertentu dapat digunakan sebagai bahan tambahan dalam minuman, atau biji buah dapat digunakan sebagai bahan baku untuk minyak atau pakan hewan.&#10;&#10;3. Kompos dan Daur Ulang: Sampah buah, terutama komponen organik seperti kulit atau bagian yang tidak dapat dimakan, dapat diolah menjadi kompos melalui proses pengomposan. Kompos ini dapat digunakan sebagai pupuk alami untuk tanaman atau sebagai bahan tanah yang berguna. Selain itu, beberapa sampah buah juga dapat didaur ulang menjadi produk lain seperti pakan ternak atau bahan baku untuk industri makanan." unFocusColor="TRANSPARENT">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </JFXTextArea>
+      <Line endX="1408.0001220703125" layoutX="202.0" layoutY="139.0" startX="-202.00003051757812" startY="1.52587890625E-5" />
+      <ImageView fitHeight="84.0" fitWidth="81.0" layoutX="123.0" layoutY="30.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../../Image/recycle.png" />
+         </image>
+         <effect>
+            <Lighting specularExponent="4.5">
+               <bumpInput>
+                  <Shadow />
+               </bumpInput>
+               <light>
+                  <Light.Distant />
+               </light>
+            </Lighting>
+         </effect>
+      </ImageView>
+      <Text fill="#727272" fontSmoothingType="LCD" layoutX="216.0" layoutY="72.0" strokeLineCap="BUTT" strokeType="OUTSIDE" strokeWidth="0.0" text="RecycleFly." wrappingWidth="183.849609375">
+         <font>
+            <Font name="System Bold Italic" size="36.0" />
+         </font>
+      </Text>
+      <Text fill="#727272" layoutX="218.0" layoutY="95.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Go Green, Go Smart!">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Text>
+      <Text layoutX="535.0" layoutY="293.0" strokeType="OUTSIDE" strokeWidth="0.0" text="DESKRIPSI">
+         <font>
+            <Font name="System Bold Italic" size="14.0" />
+         </font>
+      </Text>
+      <Text layoutX="110.0" layoutY="616.0" strokeType="OUTSIDE" strokeWidth="0.0" text="ALAMAT PENGEPUL: ">
+         <font>
+            <Font name="System Bold Italic" size="14.0" />
+         </font>
+      </Text>
+      <JFXTextArea layoutX="108.0" layoutY="623.0" prefHeight="100.0" prefWidth="407.0" text="Jl. Kaliurang No.Km. 14,5, Krawitan, Umbulmartani, Kec. Ngemplak, Kabupaten Sleman, Daerah Istimewa Yogyakarta 55584&#10;" unFocusColor="#4d4d4d00">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </JFXTextArea>
+      <AnchorPane layoutX="217.0" layoutY="248.0" prefHeight="62.0" prefWidth="198.0" style="-fx-background-color: d9d9d9; -fx-background-radius: 20;">
+         <children>
+            <Text layoutX="53.0" layoutY="41.0" strokeType="OUTSIDE" strokeWidth="0.0" text="BUAH" wrappingWidth="99.3828125">
+               <font>
+                  <Font name="Arial Black" size="28.0" />
+               </font>
+            </Text>
+         </children>
+      </AnchorPane>
+   </children>
+</AnchorPane>

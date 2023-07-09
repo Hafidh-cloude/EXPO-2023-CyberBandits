@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXTextArea?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.effect.Light.Distant?>
+<?import javafx.scene.effect.Lighting?>
+<?import javafx.scene.effect.Shadow?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.shape.Line?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="900.0" prefWidth="1600.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="HalamanUtama.HalamanMasyarakat.aOrganik.Hewan.pageHewan">
+   <children>
+      <ImageView fitHeight="375.0" fitWidth="424.0" layoutX="1151.0" layoutY="508.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../../Image/poop.png" />
+         </image>
+         <effect>
+            <Lighting specularExponent="4.12">
+               <bumpInput>
+                  <Shadow />
+               </bumpInput>
+               <light>
+                  <Light.Distant />
+               </light>
+            </Lighting>
+         </effect>
+      </ImageView>
+      <AnchorPane layoutX="232.0" layoutY="182.0" prefHeight="78.0" prefWidth="200.0" style="-fx-background-color: WHITE; -fx-background-radius: 20;" />
+      <AnchorPane layoutX="91.0" layoutY="257.0" prefHeight="322.0" prefWidth="399.0" style="-fx-background-color: d9d9d9; -fx-background-radius: 20;">
+         <children>
+            <ImageView fitHeight="273.0" fitWidth="327.0" layoutX="45.0" layoutY="25.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../../../Image/kotoran%20hewan.jpg" />
+               </image>
+               <effect>
+                  <Lighting specularExponent="4.5">
+                     <bumpInput>
+                        <Shadow />
+                     </bumpInput>
+                     <light>
+                        <Light.Distant />
+                     </light>
+                  </Lighting>
+               </effect>
+            </ImageView>
+         </children>
+      </AnchorPane>
+      <Button layoutX="1189.0" layoutY="614.0" mnemonicParsing="false" onAction="#keJual" prefHeight="61.0" prefWidth="137.0" text="JUAL">
+         <font>
+            <Font name="System Bold" size="14.0" />
+         </font></Button>
+      <Button fx:id="buttonKembali" layoutX="84.0" layoutY="789.0" mnemonicParsing="false" onAction="#untukKembali" prefHeight="52.0" prefWidth="117.0" text="Kembali">
+         <font>
+            <Font name="System Bold" size="14.0" />
+         </font></Button>
+      <JFXTextArea focusColor="#28292b" layoutX="511.0" layoutY="302.0" prefHeight="255.0" prefWidth="866.0" text="Sampah kotoran hewan, juga dikenal sebagai kotoran ternak atau feses hewan, merujuk pada limbah organik yang dihasilkan oleh hewan. Ini mencakup tinja, urin, dan sisa-sisa organik lainnya yang dikeluarkan oleh hewan selama proses pencernaan.&#10;&#10;Berikut adalah deskripsi tentang sampah kotoran hewan:&#10;&#10;1.Komposisi: Kotoran hewan terdiri dari sisa-sisa makanan yang tidak tercerna, mikroorganisme, enzim pencernaan, dan bahan-bahan lain yang telah melewati saluran pencernaan hewan. Ini mencakup tinja dan urin sebagai komponen utama. Komposisi dan karakteristik kotoran hewan dapat bervariasi tergantung pada jenis hewan dan jenis makanan yang dikonsumsi.&#10;&#10;2.Nutrisi: Kotoran hewan mengandung nutrisi yang bermanfaat untuk pertumbuhan tanaman dan proses pertanian. Mereka mengandung unsur-unsur seperti nitrogen, fosfor, kalium, serta zat organik yang dapat meningkatkan kesuburan tanah dan membantu tanaman tumbuh dengan baik.&#10;&#10;3.Pemrosesan dan Penggunaan: Sampah kotoran hewan dapat diolah melalui proses pengomposan untuk menghasilkan pupuk organik. Pengomposan yang tepat memungkinkan dekomposisi bahan organik dan menghasilkan kompos yang kaya akan nutrisi. Pupuk ini dapat digunakan dalam pertanian, kebun, atau pertamanan sebagai pengganti pupuk kimia." unFocusColor="TRANSPARENT">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </JFXTextArea>
+      <Line endX="1408.0001220703125" layoutX="202.0" layoutY="139.0" startX="-202.00003051757812" startY="1.52587890625E-5" />
+      <ImageView fitHeight="84.0" fitWidth="81.0" layoutX="123.0" layoutY="30.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../../Image/recycle.png" />
+         </image>
+         <effect>
+            <Lighting specularExponent="4.5">
+               <bumpInput>
+                  <Shadow />
+               </bumpInput>
+               <light>
+                  <Light.Distant />
+               </light>
+            </Lighting>
+         </effect>
+      </ImageView>
+      <Text fill="#727272" fontSmoothingType="LCD" layoutX="216.0" layoutY="72.0" strokeLineCap="BUTT" strokeType="OUTSIDE" strokeWidth="0.0" text="RecycleFly." wrappingWidth="183.849609375">
+         <font>
+            <Font name="System Bold Italic" size="36.0" />
+         </font>
+      </Text>
+      <Text fill="#727272" layoutX="218.0" layoutY="95.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Go Green, Go Smart!">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Text>
+      <Text layoutX="519.0" layoutY="280.0" strokeType="OUTSIDE" strokeWidth="0.0" text="DESKRIPSI">
+         <font>
+            <Font name="System Bold Italic" size="14.0" />
+         </font>
+      </Text>
+      <AnchorPane layoutX="183.0" layoutY="206.0" prefHeight="78.0" prefWidth="200.0" style="-fx-background-color: d9d9d9; -fx-background-radius: 20;">
+         <children>
+            <Text layoutX="19.0" layoutY="39.0" strokeType="OUTSIDE" strokeWidth="0.0" text="KOTORAN HEWAN" textAlignment="CENTER" wrappingWidth="172.13671875">
+               <font>
+                  <Font name="Arial Black" size="24.0" />
+               </font>
+            </Text>
+         </children>
+      </AnchorPane>
+      <Text layoutX="94.0" layoutY="603.0" strokeType="OUTSIDE" strokeWidth="0.0" text="ALAMAT PENGEPUL: ">
+         <font>
+            <Font name="System Bold Italic" size="14.0" />
+         </font>
+      </Text>
+      <JFXTextArea layoutX="92.0" layoutY="610.0" prefHeight="100.0" prefWidth="407.0" text="Jl. Kaliurang Km. 24, Gg. Nakula, Kaliurang, Hargobinangun, Kec. Pakem, Kabupaten Sleman, Daerah Istimewa Yogyakarta 55582&#10;" unFocusColor="#4d4d4d00">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </JFXTextArea>
+   </children>
+</AnchorPane>

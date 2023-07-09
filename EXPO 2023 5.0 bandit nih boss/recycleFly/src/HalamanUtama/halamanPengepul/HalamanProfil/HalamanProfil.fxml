@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.effect.Light.Distant?>
+<?import javafx.scene.effect.Lighting?>
+<?import javafx.scene.effect.Shadow?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.paint.Color?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="880.0" prefWidth="1300.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="HalamanUtama.halamanPengepul.HalamanProfil.page1142">
+   <center>
+      <AnchorPane style="-fx-background-color: AAC8A7;" BorderPane.alignment="CENTER">
+         <children>
+            <ImageView fitHeight="90.0" fitWidth="78.0" layoutX="96.0" layoutY="38.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../../Image/recycle.png" />
+               </image>
+               <effect>
+                  <Lighting specularExponent="4.5">
+                     <bumpInput>
+                        <Shadow />
+                     </bumpInput>
+                     <light>
+                        <Light.Distant>
+                           <color>
+                              <Color red="0.8509804010391235" green="0.8509804010391235" blue="0.8509804010391235" />
+                           </color>
+                        </Light.Distant>
+                     </light>
+                  </Lighting>
+               </effect>
+            </ImageView>
+            <Text fill="#727272" fontSmoothingType="LCD" layoutX="183.0" layoutY="77.0" strokeType="OUTSIDE" strokeWidth="0.0" text="RecycleFly.">
+               <font>
+                  <Font name="System Bold Italic" size="30.0" />
+               </font>
+            </Text>
+            <Text fill="#727272" layoutX="184.0" layoutY="106.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Go Green, Go Smart!">
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </Text>
+            <AnchorPane layoutX="175.0" layoutY="179.0" prefHeight="526.0" prefWidth="954.0" style="-fx-background-radius: 50; -fx-background-color: E9FFC2;">
+               <children>
+                  <ImageView fitHeight="121.0" fitWidth="131.0" layoutX="407.0" layoutY="26.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../../../Image/profile.png" />
+                     </image>
+                  </ImageView>
+                  <Text fill="#315e26" layoutX="92.0" layoutY="257.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Nama">
+                     <font>
+                        <Font name="System Bold" size="30.0" />
+                     </font>
+                  </Text>
+                  <Text fill="#315e26" layoutX="94.0" layoutY="335.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Email">
+                     <font>
+                        <Font name="System Bold" size="30.0" />
+                     </font>
+                  </Text>
+                  <Text fill="#315e26" layoutX="552.0" layoutY="261.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Jenis kelamin">
+                     <font>
+                        <Font name="System Bold" size="30.0" />
+                     </font>
+                  </Text>
+                  <Text fill="#315e26" layoutX="550.0" layoutY="341.0" strokeType="OUTSIDE" strokeWidth="0.0" text="TTL">
+                     <font>
+                        <Font name="System Bold" size="30.0" />
+                     </font>
+                  </Text>
+                  <Label fx:id="nameLabel" layoutX="94.0" layoutY="269.0" prefHeight="18.0" prefWidth="324.0">
+                     <font>
+                        <Font size="24.0" />
+                     </font>
+                  </Label>
+                  <Label layoutX="94.0" layoutY="354.0" prefHeight="18.0" prefWidth="246.0" />
+                  <Label fx:id="nameEmail" layoutX="104.0" layoutY="364.0" prefHeight="18.0" prefWidth="246.0" />
+                  <Label layoutX="114.0" layoutY="374.0" prefHeight="18.0" prefWidth="246.0" />
+                  <Label fx:id="jkLabel" layoutX="553.0" layoutY="278.0" prefHeight="18.0" prefWidth="212.0" />
+                  <Label fx:id="ttlLabel" layoutX="553.0" layoutY="355.0" prefHeight="18.0" prefWidth="207.0" />
+               </children>
+            </AnchorPane>
+            <Text fill="#315e26" layoutX="610.0" layoutY="354.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Rahka">
+               <font>
+                  <Font name="System Bold" size="24.0" />
+               </font>
+            </Text>
+         </children>
+      </AnchorPane>
+   </center>
+</BorderPane>
